@@ -1,0 +1,146 @@
+﻿ul {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.item-name:hover {
+    background-color: #D3D3D3;
+}
+
+.item-name-active {
+    background-color: #4682B4;
+}
+
+.item-fade-enter-active {
+    transition: all .3s;
+}
+
+.item-fade-leave-active {
+    transition: all .3s;
+}
+
+.item-fade-enter, .item-fade-leave-to {
+    transform: translateY(-10px);
+    opacity: 0;
+}
+
+.favorite-fade-enter-active {
+    transition: all .3s;
+}
+
+.favorite-fade-leave-active {
+    transition: all .3s;
+}
+
+.favorite-fade-enter, .favorite-fade-leave-to {
+    transform: translateX(-10px);
+    opacity: 0;
+}
+
+
+
+.treeView {
+    height: 100%;
+    border: 1px solid #CCCCCC;
+}
+
+.form-control {
+    width: 300px;
+    margin: 5px 0;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.tree-container {
+    width: 30%;
+    height: 100%;
+}
+
+.detail-container {
+    width: 70%;
+    height: inherit;
+    position: absolute;
+    top: 0px;
+    left: 305px;
+}
+
+.data-container {
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+
+.track-block {
+    width: 100%;
+    height: 385px;
+}
+
+.info-block {
+    height: 150px;
+    width: 100%;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.like-button {
+    background: url(/images/like.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.like-button-active {
+    background: url(/images/like_hover.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.like-button:hover {
+    background: url(/images/like_hover.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.dislike-button {
+    background: url(/images/dislike.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.dislike-button-active {
+    background: url(/images/dislike_hover.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.dislike-button:hover {
+    background: url(/images/dislike_hover.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.favorite-button {
+    background: url(/images/favourite.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.favorite-button-active {
+    background: url(/images/favourite_hover.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.favorite-button:hover {
+    background: url(/images/favourite_hover.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}

@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "vue@2.6.10",
+      "destination": "wwwroot/lib/vue/",
+      "files": [
+        "vue.min.js"
+      ]
+    },
+    {
+      "provider": "cdnjs",
+      "library": "axios@0.19.0",
+      "destination": "wwwroot/lib/axios/",
+      "files": [
+        "axios.min.js"
+      ]
+    },
+    {
+      "provider": "cdnjs",
+      "library": "notify.js@3.0.0",
+      "destination": "wwwroot/lib/notify.js/",
+      "files": [
+        "notify.min.js"
+      ]
+    }
+  ]
+}
